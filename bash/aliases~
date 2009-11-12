@@ -1,0 +1,20 @@
+alias tu='top -o cpu' # cpu
+alias tm='top -o vsize' # memory
+
+alias g="git status"
+
+
+alias c=clear
+alias hg='history | grep $1'
+alias duh='du -h --max-depth 2 $1'
+
+alias ss='./script/server'
+alias s2='spec _1.1.3_ -c -p "controllers/**/*_spec.rb,lib/**/*_spec.rb,views/**/*_spec.rb,models/**/*_spec.rb,helpers/**/*_spec.rb" spec'
+alias acceptance='spec -c  -p "acceptance/**/*_acceptance.rb" spec'
+alias rs='rake spec'
+alias r='rake'
+
+alias cd_bh_trunk='cd ~/svn/campaign_apps/trunk/bidhero/ui/'
+alias cd_bh_trunkg='cd ~/git/bidhero/ui/'
+alias cd_bh_task='cd ~/svn/campaign_apps/task_branch/bidhero/ui/'
+alias cd_bh_release='cd ~/svn/campaign_apps/rel_branch/bidhero/ui'
