@@ -1,10 +1,18 @@
-alias tu='top -o cpu' # cpu
-alias tm='top -o vsize' # memory
 
+# Utility
+alias reload='source ~/dotfiles/bash/aliases'
+alias ea='$EDITOR ~/dotfiles/bash/aliases && reload' # Edit aliases
+
+# Git
 alias g="git status"
+alias ga="git add"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gc="git commit"
 
-
-alias c=clear
+# General
+alias e='exit'
+alias c='clear'
 alias hg='history | grep $1'
 alias duh='du -h --max-depth 2 $1'
 
