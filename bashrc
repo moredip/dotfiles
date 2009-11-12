@@ -1,6 +1,6 @@
 # Symlink to this file from ~/.bashrc
 
-. ~/bin/dotfiles/bash/from_ubuntu
-. ~/bin/dotfiles/bash/env
-. ~/bin/dotfiles/bash/config
-. ~/bin/dotfiles/bash/aliases
+. ~/dotfiles/bash/from_ubuntu
+. ~/dotfiles/bash/env
+. ~/dotfiles/bash/config
+. ~/dotfiles/bash/aliases
