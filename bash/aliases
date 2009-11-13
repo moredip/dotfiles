@@ -9,6 +9,8 @@ alias ga="git add"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gc="git commit"
+alias gs="git stash"
+alias gsp="git stash pop"
 
 # General
 alias e='exit'
