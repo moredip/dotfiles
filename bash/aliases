@@ -8,21 +8,25 @@ alias g="git status"
 alias ga="git add"
 alias gd="git diff"
 alias gdc="git diff --cached"
-alias gc="git commit"
+alias gc="git commit -v"
 alias gs="git stash"
 alias gsp="git stash pop"
+alias gsr="git svn rebase"
 
 # General
+alias q='e'
 alias e='exit'
 alias c='clear'
 alias hg='history | grep $1'
 alias duh='du -h --max-depth 2 $1'
+alias fthis='find . |xargs grep --color=auto -i'
 
 alias ss='./script/server'
 alias s2='spec _1.1.3_ -c -p "controllers/**/*_spec.rb,lib/**/*_spec.rb,views/**/*_spec.rb,models/**/*_spec.rb,helpers/**/*_spec.rb" spec'
 alias acceptance='spec -c  -p "acceptance/**/*_acceptance.rb" spec'
 alias rs='rake spec'
 alias r='rake'
+alias gem_server='gem server --daemon && firefox http://localhost:8808'
 
 alias cd_bh_trunk='cd ~/svn/campaign_apps/trunk/bidhero/ui/'
 alias cd_bh_trunkg='cd ~/git/bidhero/ui/'
