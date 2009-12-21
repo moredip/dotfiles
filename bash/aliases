@@ -30,6 +30,7 @@ alias acceptance='spec -c  -p "acceptance/**/*_acceptance.rb" spec'
 alias rs='rake spec'
 alias r='rake'
 alias gem_server='gem server --daemon && firefox http://localhost:8808'
+alias gemi='gem install --no-ri --no-rdoc'
 
 alias cd_bh_trunk='cd ~/svn/campaign_apps/trunk/bidhero/ui/'
 alias cd_bh_trunkg='cd ~/git/bidhero/ui/'
