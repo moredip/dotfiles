@@ -1,0 +1,5 @@
+[user]
+	name = Pete Hodgson
+	email = git@thepete.net
+[alias]
+	co = checkout
