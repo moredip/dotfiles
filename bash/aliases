@@ -12,6 +12,7 @@ alias gc="git commit -v"
 alias gs="git stash"
 alias gsp="git stash pop"
 alias gsr="git svn rebase"
+alias gitka='gitk --all &'
 
 # General
 alias q='e'
