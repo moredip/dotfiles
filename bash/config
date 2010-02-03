@@ -39,3 +39,8 @@ BCYAN='\e[46m'
 BWHITE='\e[47m'
 
 PS1="\n\[$EGREEN\]\u@\h: \[$EBLUE\]\w \[$YELLOW\]\$(vcprompt)\[$NO_COLOR\] \n∴  "
+
+# Make sure that multiple terminals write bash history nicely
+# based on http://www.ukuug.org/events/linux2003/papers/bash_tips/
+shopt -s histappend
+PROMPT_COMMAND='history -a'
