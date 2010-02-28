@@ -1,6 +1,12 @@
 set ruler
 set incsearch
+
 set autoindent
+set expandtab
+set tabstop=2
+set shiftwidth=2
+                
+
 set ignorecase " ignore case when searching
 set smartcase  " except when search string includes a capital letter
 set mouse=a
