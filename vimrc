@@ -1,7 +1,7 @@
 set ruler
 set showcmd
 set incsearch
-filetype plugin on
+filetype plugin indent on
 set autoindent
 set ignorecase " ignore case when searching
 set smartcase  " except when search string includes a capital letter
