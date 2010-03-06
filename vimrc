@@ -17,3 +17,5 @@ map <Leader>s :NERDTreeFind<cr>
 " MiniBufExplorer stuff
 map <Leader>b <Leader>mbe
 let g:miniBufExplMapCTabSwitchBufs = 1
+
+map <Leader>f :FuzzyFinderTextMate<cr>
