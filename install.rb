@@ -4,12 +4,13 @@ DRY_RUN=false
 
 def link( src, dest = nil )
   dest ||= "."+src
-  if dest_exists?(dest)
+  full_dest = "~/#{dest}"
+  if dest_exists?(full_dest)
     puts "skipping #{src}, link already created"
     return
   end
-  puts "linking ~/dotfiles/#{src} ~/#{dest}"
-  `ln -s ~/dotfiles/#{src} ~/#{dest}` unless DRY_RUN
+  puts "linking ~/dotfiles/#{src} #{full_dest}"
+  `ln -s ~/dotfiles/#{src} #{full_dest}` unless DRY_RUN
 end
 
 def dest_exists?(dest)
@@ -22,4 +23,4 @@ link( 'vim' )
 link( 'irbrc' )
 link( 'bashrc' )
 link( 'gitconfig' )
-link( 'ssh' )
+link( 'ssh/config', '.ssh/config' )
