@@ -7,6 +7,10 @@ set ignorecase " ignore case when searching
 set smartcase  " except when search string includes a capital letter
 set mouse=a
 
+" hit shift-Enter to get in and out of insert mode
+" inspired by http://vim.wikia.com/wiki/Avoid_the_escape_key
+imap <S-Return> <Esc>
+nmap <S-Return> i
 
 " from http://stackoverflow.com/questions/95072/what-are-your-favorite-vim-tricks/96492#96492
 cmap w!! %!sudo tee > /dev/null %
@@ -18,4 +22,5 @@ map <Leader>s :NERDTreeFind<cr>
 map <Leader>b <Leader>mbe
 let g:miniBufExplMapCTabSwitchBufs = 1
 
+" FuzzyFinder is slash-f
 map <Leader>f :FuzzyFinderTextMate<cr>
