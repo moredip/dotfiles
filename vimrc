@@ -12,6 +12,10 @@ set mouse=a
 imap <S-Return> <Esc>
 nmap <S-Return> i
 
+" hit Ctrl-L in insert mode to insert a new line above the cursor and then
+" move the cursor there
+imap <C-L> <Esc> O
+
 " from http://stackoverflow.com/questions/95072/what-are-your-favorite-vim-tricks/96492#96492
 cmap w!! %!sudo tee > /dev/null %
 
