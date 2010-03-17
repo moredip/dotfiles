@@ -1,3 +1,6 @@
 Host thepete.net
 User pete
 Port 9122
+
+Host derby
+User pete
