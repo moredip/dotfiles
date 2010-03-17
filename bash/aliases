@@ -23,6 +23,7 @@ alias psg='ps ax | grep $1'
 alias duh='du -h --max-depth 2 $1'
 alias fthis='find . |xargs grep --color=auto -i'
 alias ge='gedit'
+
 # Ruby/Rails
 alias ss='./script/server'
 alias sc='./script/console'
@@ -33,10 +34,8 @@ alias r='rake'
 alias gem_server='gem server --daemon --port 41111 && open http://localhost:41111'
 alias gemi='gem install --no-ri --no-rdoc'
 
-alias cd_bh_trunk='cd ~/svn/campaign_apps/trunk/bidhero/ui/'
-alias cd_bh_trunkg='cd ~/git/bidhero/ui/'
-alias cd_bh_task='cd ~/svn/campaign_apps/task_branch/bidhero/ui/'
-alias cd_bh_release='cd ~/svn/campaign_apps/rel_branch/bidhero/ui'
+alias stakeout_cuke='rstakeout cucumber "app/**/*" "features/**/*"'
+alias stakeout_rspec='rstakeout "rake spec" "app/**/*" "lib/**/*" "spec/**/*"'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
