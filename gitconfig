@@ -3,3 +3,5 @@
 	email = git@thepete.net
 [alias]
 	co = checkout
+[core]
+	excludesfile = ~/.gitignore
