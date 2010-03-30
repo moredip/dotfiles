@@ -23,6 +23,7 @@ alias psg='ps ax | grep $1'
 alias duh='du -h --max-depth 2 $1'
 alias fthis='find . |xargs grep --color=auto -i'
 alias ge='gedit'
+alias ppxml='pbpaste  | xmllint --format - | pbcopy'
 
 # Ruby/Rails
 alias ss='./script/server'
