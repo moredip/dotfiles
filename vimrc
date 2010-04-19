@@ -7,6 +7,8 @@ set ignorecase " ignore case when searching
 set smartcase  " except when search string includes a capital letter
 set mouse=a
 
+set tabstop=2 " changes width of TAB character
+
 " hit shift-Enter to get in and out of insert mode
 " inspired by http://vim.wikia.com/wiki/Avoid_the_escape_key
 imap <S-Return> <Esc>
