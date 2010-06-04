@@ -13,6 +13,7 @@ alias gs="git stash"
 alias gsp="git stash pop"
 alias gsr="git svn rebase"
 alias gitka='gitk --all &'
+alias gitxa='gitx --all'
 
 # General
 alias q='e'
@@ -24,7 +25,8 @@ alias psg='ps ax | grep $1'
 alias duh='du -h --max-depth 2 $1'
 alias fthis='find . |xargs grep --color=auto -i'
 alias ge='gedit'
-alias ppxml='pbpaste  | xmllint --format - | pbcopy'
+alias ppxml='pbpaste | xmllint --format - | pbcopy'
+alias ppjson='pbpaste | python -mjson.tool | pbcopy'
 
 # Ruby/Rails
 alias ss='./script/server'
