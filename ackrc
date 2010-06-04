@@ -1,1 +1,4 @@
 --ignore-dir=coverage
+--type-set=sass=.sass
+--type-set=haml=.haml
+
