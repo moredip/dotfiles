@@ -28,6 +28,7 @@ alias ffile='find . -name'
 alias ge='gedit'
 alias ppxml='pbpaste | xmllint --format - | pbcopy'
 alias ppjson='pbpaste | python -mjson.tool | pbcopy'
+alias edit='$EDITOR'
 
 # Ruby/Rails
 alias ss='./script/server'
