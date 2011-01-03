@@ -10,3 +10,6 @@
 [submodule "vim/bundle/vim-preview"]
 	path = vim/bundle/vim-preview
 	url = https://github.com/greyblake/vim-preview.git
+[submodule "vim/bundle/vim-markdown-preview"]
+	path = vim/bundle/vim-markdown-preview
+	url = https://github.com/robgleeson/vim-markdown-preview.git
