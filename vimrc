@@ -20,6 +20,9 @@ set scrolloff=3 " leave 3 lines of breathing room when scrolling the screen thro
 imap <S-Return> <Esc>
 nmap <S-Return> i
 
+" type jk to leave insert mode. Courtesy rohits@thoughtworks.com 
+imap jk <Esc>
+
 " hit Ctrl-L in insert mode to insert a new line above the cursor and then
 " move the cursor there
 imap <C-L> <Esc> O
@@ -40,6 +43,9 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 
 " FuzzyFinder is slash-f
 map <Leader>f :FuzzyFinderTextMate<cr>
+
+" vim-markdown-preview is slash-m
+map <Leader>m :Mm<cr>
 
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
