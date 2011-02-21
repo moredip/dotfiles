@@ -2,6 +2,15 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" Example of adding a vim plugin to pathogen as a git submodule:
+" (courtesy of http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+"
+" cd ~/dotfiles
+" git submodule add https://github.com/vim-scripts/matchit.zip.git vim/bundle/matchit
+" ga .
+" gc -m 'adding matchit plugin as a submodule'
+
+
 set ruler
 set showcmd
 set incsearch
