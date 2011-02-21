@@ -15,6 +15,16 @@ set tabstop=2 " changes width of TAB character
 
 set scrolloff=3 " leave 3 lines of breathing room when scrolling the screen through a file
 
+
+" Following courtesy of Bryce
+set wildmenu
+set wildmode=list:longest
+
+set guifont=Inconsolata:h13 
+
+
+
+
 " hit shift-Enter to get in and out of insert mode
 " inspired by http://vim.wikia.com/wiki/Avoid_the_escape_key
 imap <S-Return> <Esc>
