@@ -16,3 +16,6 @@
 [submodule "vim/bundle/matchit"]
 	path = vim/bundle/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "vim/bundle/snipmate"]
+	path = vim/bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
