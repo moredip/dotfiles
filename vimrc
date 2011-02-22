@@ -1,3 +1,5 @@
+let mapleader=";"
+
 " Boot up pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -9,7 +11,6 @@ call pathogen#helptags()
 " git submodule add https://github.com/vim-scripts/matchit.zip.git vim/bundle/matchit
 " ga .
 " gc -m 'adding matchit plugin as a submodule'
-
 
 set ruler
 set showcmd
@@ -60,11 +61,14 @@ map <Leader>s :NERDTreeFind<cr>
 map <Leader>b <Leader>mbe
 let g:miniBufExplMapCTabSwitchBufs = 1
 
-" FuzzyFinder is slash-f
+" FuzzyFinder is leader-f
 map <Leader>f :FuzzyFinderTextMate<cr>
 
-" vim-markdown-preview is slash-m
+" vim-markdown-preview is leader-m
 map <Leader>m :Mm<cr>
+
+" yankring config - leader-space to open YR
+map <Leader><Space>  :YRShow<cr>
 
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
