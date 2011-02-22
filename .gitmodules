@@ -19,3 +19,6 @@
 [submodule "vim/bundle/snipmate"]
 	path = vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vim/bundle/vim-rooter"]
+	path = vim/bundle/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
