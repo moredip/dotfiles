@@ -30,6 +30,9 @@ alias ppxml='pbpaste | xmllint --format - | pbcopy'
 alias ppjson='pbpaste | python -mjson.tool | pbcopy'
 alias edit='$EDITOR'
 
+# XCode
+alias open_xcodeproj='open *.xcodeproj'
+
 # Ruby/Rails
 alias ss='./script/server'
 alias sc='./script/console'
