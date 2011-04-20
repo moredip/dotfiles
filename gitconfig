@@ -3,6 +3,7 @@
 	email = git@thepete.net
 [alias]
 	co = checkout
+	ff = merge --ff-only
 [core]
 	excludesfile = ~/.gitignore
 [color]
