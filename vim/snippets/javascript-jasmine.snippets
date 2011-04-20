@@ -1,3 +1,9 @@
+snippet lam
+	function(){
+		${1}	
+	});
+
+
 # all courtesy of http://www.vim.org/scripts/script.php?script_id=3249 (with some slight customization)
 
 # After Each
@@ -69,6 +75,10 @@ snippet en
 # Expect to be truthy
 snippet et
 	expect(${1:target}).toBeTruthy();${2}
+
+# Expect to be
+snippet eb
+	expect(${1:target}).toBe(${2:value});${3}
 
 # Expect to contain
 snippet ec
