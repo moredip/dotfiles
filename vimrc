@@ -30,7 +30,7 @@ set scrolloff=3 " leave 3 lines of breathing room when scrolling the screen thro
 set wildmenu
 set wildmode=list:longest
 
-set guifont=Inconsolata:h13 
+set guifont=Inconsolata:h15 
 
 
 
