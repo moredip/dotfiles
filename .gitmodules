@@ -31,3 +31,6 @@
 [submodule "vim/bundle/color-sampler-pack"]
 	path = vim/bundle/color-sampler-pack
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "vim/bundle/minibufexpl"]
+	path = vim/bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
