@@ -38,7 +38,13 @@ BMAGENTA='\e[45m'
 BCYAN='\e[46m'
 BWHITE='\e[47m'
 
-GIT_PS1_SHOWDIRTYSTATE=true
+if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
+  source /usr/local/git/contrib/completion/git-completion.bash
+  GIT_PS1_SHOWDIRTYSTATE=true
+else
+	echo "!!! Couldn't source git-completion.bash !!!"
+	__git_ps1 () { :; } # define no-op __git_ps1
+fi
 PS1="\n\[$EGREEN\]\u@\h: \[$EBLUE\]\w \[$YELLOW\]\$(__git_ps1)\[$NO_COLOR\] \n⋙ "
 
 # Make sure that multiple terminals write bash history nicely
