@@ -6,7 +6,7 @@
 "colorscheme railscasts2
 "
 
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 
-colorscheme darkblue2
+"colorscheme darkblue2

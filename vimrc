@@ -13,6 +13,7 @@ call pathogen#helptags()
 " gc -m 'adding matchit plugin as a submodule'
 
 set ruler
+set number " show line numbers
 set showcmd
 set incsearch
 filetype plugin indent on
@@ -32,7 +33,7 @@ set wildmode=list:longest
 
 set guifont=Inconsolata:h15 
 
-
+set winminwidth=15 " when maximizing the current window with Ctrl-pipe, leave the other windows at 15 chars wide
 
 
 " hit shift-Enter to get in and out of insert mode
