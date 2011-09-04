@@ -4,7 +4,6 @@
 "colorscheme slate
 "colorscheme evening
 "colorscheme railscasts2
-"
 
 set background=dark
 colorscheme solarized
