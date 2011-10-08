@@ -17,6 +17,10 @@ alias gsr="git svn rebase"
 alias gitka='gitk --all &'
 alias gitxa='gitx --all'
 
+# RVM
+alias ri='rvm info'
+alias ru='rvm use $1'
+
 # General
 alias q='e'
 alias e='exit'
