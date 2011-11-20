@@ -41,6 +41,9 @@ BWHITE='\e[47m'
 if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
   source /usr/local/git/contrib/completion/git-completion.bash
   GIT_PS1_SHOWDIRTYSTATE=true
+elif [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+  source /usr/local/etc/bash_completion.d/git-completion.bash
+  GIT_PS1_SHOWDIRTYSTATE=true
 else
 	echo "!!! Couldn't source git-completion.bash !!!"
 	__git_ps1 () { :; } # define no-op __git_ps1
