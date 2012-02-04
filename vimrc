@@ -1,3 +1,6 @@
+" reload this file with:  
+"    :source $MYVIMRC
+
 let mapleader=";"
 
 " Boot up pathogen
@@ -25,6 +28,10 @@ set mouse=a
 set tabstop=2 " changes width of TAB character
 
 set scrolloff=3 " leave 3 lines of breathing room when scrolling the screen through a file
+
+" Ctrl j and k to go up and down thru wrapped lines
+noremap  <buffer> <silent> <C-k> gk
+noremap  <buffer> <silent> <C-j> gj
 
 
 " Following courtesy of Bryce
