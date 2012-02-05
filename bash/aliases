@@ -26,6 +26,10 @@ alias ru='rvm use $1'
 alias q='e'
 alias e='exit'
 alias c='clear'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ,="cd -"
 ch () { cheat $1 | less ; }
 alias hisg='history | grep $1'
 alias psg='ps ax | grep $1'
