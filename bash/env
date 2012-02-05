@@ -1,5 +1,7 @@
 export EDITOR="vim"
 export PATH=$PATH:~/bin:~/local/bin:/usr/local/share/npm/bin
 export HISTFILESIZE=30000
-shopt -s histverify
 set -o vi
+
+# hit Ctrl-Space to do history substitution before actually running the current command
+bind "\C-Space":magic-space 
