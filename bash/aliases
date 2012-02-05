@@ -14,6 +14,7 @@ alias gp="git pull --ff-only"
 alias gc="git commit -v"
 alias gs="git stash"
 alias gsp="git stash pop"
+alias gl="git l --all"
 alias gsr="git svn rebase"
 alias gitka='gitk --all &'
 alias gitxa='gitx --all'
