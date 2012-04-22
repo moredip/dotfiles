@@ -10,3 +10,9 @@
 	excludesfile = ~/.gitignore
 [color]
 	ui = auto
+[merge]
+  tool = mvimdiff
+  keepbackup=false
+[mergetool "mvimdiff"]
+  cmd="/usr/local/bin/mvim -d -g $LOCAL $MERGED $REMOTE"
+  keepbackup=false

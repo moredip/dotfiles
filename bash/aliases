@@ -20,8 +20,11 @@ alias gitka='gitk --all &'
 alias gitxa='gitx --all'
 
 # RVM
-alias ri='rvm info'
+alias rvmi='rvm info'
 alias ru='rvm use $1'
+
+# Bundle
+alias be='bundle exec'
 
 # General
 alias q='e'
