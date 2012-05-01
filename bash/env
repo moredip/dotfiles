@@ -5,3 +5,5 @@ set -o vi
 
 # hit Ctrl-Space to do history substitution before actually running the current command
 bind "\C-Space":magic-space 
+
+export GREP_OPTIONS="--color=auto"
