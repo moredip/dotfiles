@@ -2,4 +2,4 @@
 --type-set=sass=.sass
 --type-set=haml=.haml
 --type-set=cucumber=.feature
-
+--type-set=coffee=.coffee
