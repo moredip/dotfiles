@@ -31,3 +31,10 @@ link( 'bin/rstakeout','bin/rstakeout' )
 link( 'bin/stakeout_single_spec','bin/stakeout_single_spec' )
 link( 'growl' )
 link( 'ackrc' )
+
+unless File.exists?( ".profile" )
+  File.open(  ".profile", 'w'  ) do
+    |f| f.puts( %Q<[ -r $HOME/.bashrc ] && source $HOME/.bashrc>)
+  end
+end
+
