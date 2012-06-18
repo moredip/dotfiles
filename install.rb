@@ -31,6 +31,7 @@ link( 'bin/rstakeout','bin/rstakeout' )
 link( 'bin/stakeout_single_spec','bin/stakeout_single_spec' )
 link( 'growl' )
 link( 'ackrc' )
+link( 'gemrc' )
 
 unless File.exists?( ".bash_profile" )
   File.open(  ".bash_profile", 'w'  ) do
