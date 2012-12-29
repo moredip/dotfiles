@@ -1,0 +1,2 @@
+#!/bin/sh
+s3cmd sync --acl-public --no-delete-removed --reduced-redundancy -F public/ --exclude=.git/* s3://$1.thepete.net/
