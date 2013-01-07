@@ -78,6 +78,9 @@ map <Leader>m :Mm<cr>
 " yankring config - leader-space to open YR
 map <Leader><Space>  :YRShow<cr>
 
+" bind up ragtag
+let g:ragtag_global_maps = 1
+
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
 " ========================================
