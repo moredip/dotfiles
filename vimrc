@@ -81,6 +81,11 @@ map <Leader><Space>  :YRShow<cr>
 " bind up ragtag
 let g:ragtag_global_maps = 1
 
+" bind solarized background toggling to leader-l
+" (see https://github.com/altercation/vim-colors-solarized/issues/40 for why that first :call command is needed
+:call togglebg#map("")
+map <Leader>l :ToggleBG<cr>
+
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
 " ========================================
