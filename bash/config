@@ -48,6 +48,11 @@ else
 	echo "!!! Couldn't source git-completion.bash !!!"
 	__git_ps1 () { :; } # define no-op __git_ps1
 fi
+
+if [ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]; then
+  source /usr/local/etc/bash_completion.d/git-prompt.sh
+fi
+
 PS1="\n\[$EGREEN\]\u@\h: \[$EBLUE\]\w \[$YELLOW\]\$(__git_ps1)\[$NO_COLOR\] \n⋙ "
 
 # Make sure that multiple terminals write bash history nicely
