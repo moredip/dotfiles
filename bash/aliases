@@ -1,5 +1,5 @@
 # har har
-alias bitch,=sudo
+alias please=sudo
 
 # Utility
 alias reload='source ~/dotfiles/bash/aliases'
