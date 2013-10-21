@@ -6,6 +6,7 @@
 	ff = merge --ff-only
 	# courtesy of Ben Hoskings/PeepCode
   l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar'
+  new = !git init $1 && cd $1 && touch .gitignore && git add .gitignore && git commit -m 'initial commit' && echo 
 [core]
 	excludesfile = ~/.gitignore
 [color]
