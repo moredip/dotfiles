@@ -69,9 +69,6 @@ map <Leader>s :NERDTreeFind<cr>
 map <Leader>b <Leader>mbe
 let g:miniBufExplMapCTabSwitchBufs = 1
 
-" FuzzyFinder is leader-f
-map <Leader>f :FuzzyFinderTextMate<cr>
-
 " vim-markdown-preview is leader-m
 map <Leader>m :Mm<cr>
 
@@ -85,6 +82,24 @@ let g:ragtag_global_maps = 1
 " (see https://github.com/altercation/vim-colors-solarized/issues/40 for why that first :call command is needed
 :call togglebg#map("")
 map <Leader>l :ToggleBG<cr>
+
+"ctrl p is leader-f
+map <Leader>f :CtrlP<cr>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" PROMOTE VARIABLE TO RSPEC LET
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! PromoteToLet()
+  :normal! dd
+  " :exec '?^\s*it\>'
+  :normal! P
+  :.s/\(\w\+\) = \(.*\)$/let(:\1) { \2 }/
+  :normal ==
+endfunction
+:command! PromoteToLet :call PromoteToLet()
+:map <leader>p :PromoteToLet<cr>
+
 
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
