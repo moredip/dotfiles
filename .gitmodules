@@ -55,3 +55,6 @@
 [submodule "vim/bundle/rainbox_parentheses"]
 	path = vim/bundle/rainbox_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "vim/bundle/expand-region"]
+	path = vim/bundle/expand-region
+	url = https://github.com/terryma/vim-expand-region.git
