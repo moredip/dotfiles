@@ -1,3 +1,3 @@
-if [ -f /opt/local/etc/bash_completion ]; then
-  . /opt/local/etc/bash_completion
-fi
+[ -f /opt/local/etc/bash_completion ] && source /opt/local/etc/bash_completion
+
+[ -f `brew --prefix`/etc/bash_completion ] && source `brew --prefix`/etc/bash_completion
