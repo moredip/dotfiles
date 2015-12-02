@@ -33,6 +33,9 @@ set scrolloff=3 " leave 3 lines of breathing room when scrolling the screen thro
 noremap  <buffer> <silent> <C-k> gk
 noremap  <buffer> <silent> <C-j> gj
 
+" don't break words when wrapping lines
+" set linebreak
+
 
 " Following courtesy of Bryce
 set wildmenu
