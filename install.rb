@@ -35,9 +35,7 @@ link( 'growl' )
 link( 'ackrc' )
 link( 'gemrc' )
 
-unless File.exists?( ".bash_profile" )
-  File.open(  ".bash_profile", 'w'  ) do
-    |f| f.puts( %Q<[ -r $HOME/.bashrc ] && source $HOME/.bashrc>)
-  end
+# note, this will nuke whatever's in .profile
+File.open( ".profile", 'w' ) do
+  |f| f.puts( %Q<[ -r $HOME/.bashrc ] && source $HOME/.bashrc>)
 end
-
