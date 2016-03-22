@@ -36,6 +36,6 @@ link( 'ackrc' )
 link( 'gemrc' )
 
 # note, this will nuke whatever's in .profile
-File.open( ".profile", 'w' ) do
+File.open( "~/.profile", 'w' ) do
   |f| f.puts( %Q<[ -r $HOME/.bashrc ] && source $HOME/.bashrc>)
 end
