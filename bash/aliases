@@ -23,6 +23,10 @@ alias gsr="git svn rebase"
 alias gitka='gitk --all &'
 alias gitxa='gitx --all'
 
+# Docker
+alias dmr='docker-machine restart dev && eval $(docker-machine env dev)'
+alias dme='eval $(docker-machine env dev)'
+
 # RVM
 alias rvmi='rvm info'
 alias ru='rvm use $1'
