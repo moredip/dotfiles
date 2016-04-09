@@ -5,6 +5,7 @@
 . ~/dotfiles/bash/config
 . ~/dotfiles/bash/aliases
 . ~/dotfiles/bash/rvm
+. ~/dotfiles/bash/nvm
 . ~/dotfiles/bash/boxen
 . ~/dotfiles/bash/bash_completion
 
