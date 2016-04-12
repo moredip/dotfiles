@@ -1,0 +1,35 @@
+snippet func "" i
+function $1() {
+	$0
+}
+endsnippet
+
+snippet imp
+import $1 from '$1';
+endsnippet
+
+# PROMISES
+
+snippet then "" i
+then(function ($1) {
+	$0
+})
+endsnippet
+
+# MOCHA
+
+snippet desc
+describe('$1', function () {
+	$0
+});
+endsnippet
+
+snippet it
+it('$1', function () {
+	$0
+});
+endsnippet
+
+snippet xit
+xit('$1');
+endsnippet
