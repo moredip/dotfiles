@@ -24,8 +24,10 @@ alias gitka='gitk --all &'
 alias gitxa='gitx --all'
 
 # Docker
-alias dmr='docker-machine restart dev && eval $(docker-machine env dev)'
-alias dme='eval $(docker-machine env dev)'
+alias d='docker'
+alias dc='docker-compose' # Yes, this masks the `dc` calculator utility. No, I've never ever used it.
+alias dmr='docker-machine restart default && eval $(docker-machine env default)'
+alias dme='eval $(docker-machine env default)'
 
 # RVM
 alias rvmi='rvm info'
