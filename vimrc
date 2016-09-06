@@ -51,8 +51,9 @@ set winminwidth=15 " when maximizing the current window with Ctrl-pipe, leave th
 imap <S-Return> <Esc>
 nmap <S-Return> i
 
-" type jk to leave insert mode. Courtesy rohits@thoughtworks.com 
+" mash on j and k at once to leave insert mode. Inspired by rohits@thoughtworks.com 
 imap jk <Esc>
+imap kj <Esc>
 
 " hit Ctrl-L in insert mode to insert a new line above the cursor and then
 " move the cursor there
@@ -88,6 +89,13 @@ map <Leader>l :ToggleBG<cr>
 
 "ctrl p is leader-f
 map <Leader>f :CtrlP<cr>
+"ctrl p in MRU mode is leader-g
+map <Leader>g :CtrlPMRUFiles<cr>
+"fuzzyfind by filename, not full path by default. <c-d> to toggle behaviour mid-search
+let g:ctrlp_by_filename = 1 
+
+"ignore node_modules in fuzzyfind
+let g:ctrlp_custom_ignore = '\v[\/]node_modules$'
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -107,6 +115,9 @@ endfunction
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
 " ========================================
+"
+" Courtesy of the expand-region plugin we can:
+" Press ```+``` to expand the visual selection and ```_``` to shrink it.
 "
 " --Paste whatever was last yanked--
 "  "0p
