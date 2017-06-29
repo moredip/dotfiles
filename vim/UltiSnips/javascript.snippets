@@ -8,6 +8,10 @@ snippet imp
 import $1 from '$1';
 endsnippet
 
+snippet req
+const $1 = require('$1');
+endsnippet
+
 # PROMISES
 
 snippet then "" i
@@ -19,13 +23,13 @@ endsnippet
 # MOCHA
 
 snippet desc
-describe('$1', function () {
+describe('$1', () => {
 	$0
 });
 endsnippet
 
 snippet it
-it('$1', function () {
+it('$1', () => {
 	$0
 });
 endsnippet
