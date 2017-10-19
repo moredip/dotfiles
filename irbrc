@@ -1,12 +1,5 @@
 require('rubygems')
 
-begin
-  # load wirble
-  require 'wirble'
-
-  # start wirble (with color)
-  Wirble.init
-  Wirble.colorize
-rescue LoadError => err
-  warn "Couldn't load Wirble: #{err}"
-end
+require 'irb/ext/save-history'
+IRB.conf[:SAVE_HISTORY] = 200
+IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
