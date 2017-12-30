@@ -38,6 +38,8 @@ BMAGENTA='\e[45m'
 BCYAN='\e[46m'
 BWHITE='\e[47m'
 
+[ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ] && source `brew --prefix`/etc/bash_completion.d/git-prompt.sh
+
 PS1="\n\[$EGREEN\]\u@\h: \[$EBLUE\]\w \[$YELLOW\]\$(__git_ps1)\[$NO_COLOR\] \n⋙ "
 
 # Make sure that multiple terminals write bash history nicely
