@@ -67,3 +67,6 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/ale"]
+	path = vim/bundle/ale
+	url = https://github.com/w0rp/ale.git
