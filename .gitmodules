@@ -70,3 +70,9 @@
 [submodule "vim/bundle/ale"]
 	path = vim/bundle/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "vim/bundle/airline"]
+	path = vim/bundle/airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/bundle/airline-themes"]
+	path = vim/bundle/airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes

@@ -111,6 +111,11 @@ endfunction
 :command! PromoteToLet :call PromoteToLet()
 :map <leader>p :PromoteToLet<cr>
 
+" ========================================
+" 				ALE setup
+" ========================================
+let g:ale_fixers = {'javascript': ['prettier']}
+
 
 " ========================================
 " 				PETE'S VIM CHEAT SHEET
