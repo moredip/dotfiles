@@ -86,10 +86,6 @@ cmap w!! %!sudo tee > /dev/null %
 map <Leader>t :NERDTreeToggle<cr>
 map <Leader>s :NERDTreeFind<cr>
 
-" MiniBufExplorer stuff
-map <Leader>b <Leader>mbe
-let g:miniBufExplMapCTabSwitchBufs = 1
-
 " vim-markdown-preview is leader-m
 map <Leader>m :Mm<cr>
 
