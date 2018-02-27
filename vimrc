@@ -20,6 +20,16 @@ nmap <leader>- <Plug>AirlineSelectPrevTab
 nmap <leader>+ <Plug>AirlineSelectNextTab
 
 
+" Maintain undo history between sessions
+set undodir=~/.vim/undodir
+set undofile
+
+" Maintain hidden buffers, rather than requiring them to be saved and unloaded
+" http://derekwyatt.org/2009/08/20/the-absolute-bare-minimum/
+" https://medium.com/usevim/vim-101-set-hidden-f78800142855
+set hidden
+
+
 " Boot up pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
