@@ -18,4 +18,4 @@
   cmd="/usr/local/bin/mvim -d -g $LOCAL $MERGED $REMOTE"
   keepbackup=false
 [push]
-	default = simple
+	default = current
