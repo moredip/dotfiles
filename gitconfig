@@ -7,6 +7,7 @@
 	# courtesy of Ben Hoskings/PeepCode
   l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar'
   new = !git init $1 && cd $1 && touch .gitignore && git add .gitignore && git commit -m 'initial commit' && echo 
+  discard = stash push --include-untracked --keep-index -m 'git discard'
 [core]
 	excludesfile = ~/.gitignore
 [color]
