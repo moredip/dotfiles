@@ -41,6 +41,9 @@ alias be='bundle exec'
 # Project-specific
 alias berp='be rake precommit'
 
+# JVM
+alias java8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
+
 # General
 alias q='e'
 alias e='exit'
