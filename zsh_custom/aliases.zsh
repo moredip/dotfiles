@@ -48,3 +48,5 @@ alias ffile='find . -name'
 alias ppxml='pbpaste | xmllint --format - | pbcopy'
 alias ppjson='pbpaste | python -mjson.tool | pbcopy'
 alias edit='$EDITOR'
+
+alias ec='emacsclient -nc $1'
