@@ -76,9 +76,6 @@ alias r='rake'
 alias gem_server='gem server --daemon --port 41111 && open http://localhost:41111'
 alias gemi='gem install --no-ri --no-rdoc'
 
-alias stakeout_cuke='rstakeout cucumber "app/**/*" "features/**/*"'
-alias stakeout_rspec='rstakeout "rake spec" "app/**/*" "lib/**/*" "spec/**/*"'
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"

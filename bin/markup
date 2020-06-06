@@ -1,4 +1,0 @@
-hash sundown 2>&- || { echo >&2 "I need to use sundown to render yo markdown"; exit 1; }
-input=$1
-output=${input%.*}.html 
-sundown $input > $output && open $output

@@ -17,23 +17,17 @@ def dest_exists?(dest)
   File.exists?( File.expand_path( dest ) )
 end
 
-link( 'vimrc' )
-link( 'gvimrc' )
-link( 'vim' )
-link( 'irbrc' )
+#link( 'vimrc' )
+#link( 'gvimrc' )
+#link( 'vim' )
+link( 'spacemacs' )
 link( 'bashrc' )
 link( 'tmux.conf' )
 link( 'gitconfig' )
 link( 'gitignore' )
 link( 'ssh/config', '.ssh/config' )
 `mkdir -p ~/bin`
-link( 'bin/cloc.pl','bin/cloc.pl' )
-link( 'bin/rstakeout','bin/rstakeout' )
-link( 'bin/stakeout_single_spec','bin/stakeout_single_spec' )
 link( 'bin/push_to_s3','bin/push_to_s3' )
-link( 'growl' )
-link( 'ackrc' )
-link( 'gemrc' )
 
 # note, this will nuke whatever's in .profile
 File.open( "#{ENV['HOME']}/.profile", 'w' ) do

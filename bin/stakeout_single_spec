@@ -1,2 +1,0 @@
-#!/bin/sh
-rstakeout "spec $1" $*
