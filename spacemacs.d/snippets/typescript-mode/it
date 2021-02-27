@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: it block
+# key: it
+# --
+it('$1', ()=> {
+  $0
+});

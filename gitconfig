@@ -20,3 +20,5 @@
   keepbackup=false
 [push]
 	default = current
+[hub]
+	protocol = ssh
