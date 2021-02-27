@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: todo it block
+# key: xit
+# --
+it.todo('$1');
