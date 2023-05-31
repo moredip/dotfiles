@@ -22,3 +22,9 @@
 	default = current
 [hub]
 	protocol = ssh
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = false
+[gpg]
+	program = gpg
