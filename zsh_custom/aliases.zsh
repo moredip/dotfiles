@@ -18,6 +18,11 @@ alias gsr="git svn rebase"
 alias gitka='gitk --all &'
 alias gitxa='gitx --all'
 
+# courtesy https://stackoverflow.com/a/69905091/53529
+alias gr='f() { git reflog | grep checkout | cut -d " " -f 8 | uniq | head ${1} | cat -n };f'
+alias gg='fn() { gr -${1} | tail -1 | cut -f 2 | xargs git checkout  }; fn'
+
+
 # Docker
 alias d='docker'
 alias dc='docker-compose' # Yes, this masks the `dc` calculator utility. No, I've never ever used it.
