@@ -10,6 +10,7 @@ alias gdm='git diff $(git merge-base HEAD ${1-master})' # show changes that are 
 alias gdc="git diff --cached"
 alias gp="git pull --ff-only" 
 alias gpr="git pull --rebase" 
+alias gm='git fetch && git merge origin/main'
 alias gc="git commit -v"
 alias gs="git stash"
 alias gsp="git stash pop"

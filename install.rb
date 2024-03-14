@@ -22,6 +22,7 @@ end
 #link( 'vim' )
 link( 'spacemacs' )
 link( 'bashrc' )
+link( 'zshrc' )
 link( 'tmux.conf' )
 link( 'gitconfig' )
 link( 'gitignore' )
